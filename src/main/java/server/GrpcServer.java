@@ -9,7 +9,7 @@ public class GrpcServer {
         Server server = ServerBuilder
           .forPort(8080)
           .addService(new MatrixServiceImpl()).build();
-	System.out.println("Starting server...testing again");
+	System.out.println("Starting server...testing again2");
         server.start();
 	System.out.println("Server started!");
         server.awaitTermination();
