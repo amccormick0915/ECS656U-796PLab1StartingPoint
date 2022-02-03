@@ -22,7 +22,7 @@ public class MatrixServiceImpl extends MatrixServiceImplBase
 	@Override
     public void multiplyBlock(MatrixRequest request, StreamObserver<MatrixReply> reply)
     {
-        System.out.println("Request received from client:\n" + request);
+        System.out.println("Request received from clientt:\n" + request);
         int C00=request.getA00()+request.getB00();
 		int C01=request.getA00()+request.getB01();
 		int C10=request.getA01()+request.getB10();
